@@ -11,12 +11,12 @@ body {
 }
 
 #main {
+  
   display: grid;
   height: 100%;
   width: 100%;
   grid-template-columns: 25% 25% 50%;
   grid-template-rows: 20% 30% 50%;
-
 }
 
 #left-top-left {
@@ -85,9 +85,14 @@ body {
 #right {
   grid-column: 3;
   grid-row: 1 / 4;
+  justify-self: center;
   background-color: green;
+  margin: 4vw;
+ height: 80%;
 }
 
 #right video {
   height: 100%;
+  border-radius: 2vw;
+  width: 100%;
 }
