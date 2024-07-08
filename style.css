@@ -20,12 +20,12 @@ body {
   padding: 4vw;
 
 }
-.menu{
+.menu-icon{
   display: none;
 }
 
 #left-top-left {
-  background-color: blue;
+  /* background-color: blue; */
   padding: 30px 40px;
 
 }
@@ -39,7 +39,7 @@ body {
 
 #left-top-right {
   padding: 30px 40px;
-  background-color: green;
+  /* background-color: green; */
   text-transform: capitalize;
   text-align: right;
   font-family: "Courier New", Courier, monospace;
@@ -60,7 +60,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-weight: 500;
   font-size: 4vh;
-  background-color: rgb(200, 255, 0);
+  /* background-color: rgb(200, 255, 0); */
   padding: 20px;
   text-transform: capitalize;
   height: 200%;
@@ -78,7 +78,7 @@ body {
   align-self: end;
   padding: 20px;
   font-family: 'Courier New', Courier, monospace;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 #left-buttom p {
@@ -110,7 +110,7 @@ body {
   grid-column: 3;
   grid-row: 1 / 4;
   justify-self: center;
-  background-color: green;
+  /* background-color: green; */
   margin: 4vw ;
   height: 80%;
 }
@@ -129,8 +129,8 @@ body {
   grid-template-rows:60px 40% 40%;
   
 }
-.menu{
-  display: none;
+.menu-icon{
+  display: grid;
 }
 
 #left-top-left {
@@ -164,13 +164,12 @@ body {
 }
 
 #left-center {
-
-
   font-family: "Courier New", Courier, monospace;
   font-weight: 500;
   text-transform: capitalize;
   height: 100%;
   width: 100%;
+  z-index: 4;
 }
 
 #left-center h1:nth-child(2n) {
@@ -205,6 +204,7 @@ body {
   position: absolute;
   top: 50%;
   left: 40%;
+  z-index: 0;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   rotate: 90deg;
@@ -223,7 +223,7 @@ body {
 
   margin-top: 20px;
   object-fit: contain;
-  background-color: rgb(255, 34, 0);
+  /* background-color: rgb(255, 34, 0); */
 }
 
 #right video {
